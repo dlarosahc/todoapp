@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab42c2efde.js" crossorigin="anonymous"></script>
+    
+   
+</head>
+<body>
+<main id="main-container">
+  <h1 id="title">Todo<span>App</span></h1>
+  <h2 id="sub-title">MIS TAREAS</h2>
+<div id="formulario">
+  <div id="form-container">
+    <input type="text" placeholder="Escribe una tarea" id="new-task">
+    <button id="add-task" type="submit"><i class="fa-solid fa-circle-plus"></i></button>
+  </div>
+    <h5 id="ingrese">Ingrese una nueva tarea</h5>  
+    <div id="form-list-container">
+      <ul id="milista"> 
+        <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-done">Sumergirme en mi propia miseria</p> <button class="check-done"> <i class="fa-regular fa-circle-check"></i></button>
+        <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-task">Contemplar el abismo</p> <button class="check"> <i class="fa-regular fa-circle"></i></button>
+        <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-task">Solucionar el hambruna mundial (Sin decirselo a nadie)</p>  <button class="check"><i class="fa-regular fa-circle"></i></button>
+          <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-done">Danza y ejercicio</p> <button class="check-done"> <i class="fa-regular fa-circle-check"></i></button>
+            <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-task">Practicar CSS porque es medio complicado y aun hay varias cosas que no entiendo del todo bien pero lo importante es que estoy mejorando y ahora puedo escribir todo este texto sin que el cuadro se deforme</p> <button class="check"> <i class="fa-regular fa-circle"></i></button>
+            <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-task">Cena conmigo mismo (No cancelar)</p>  <button class="check"><i class="fa-regular fa-circle"></i></button>
+              <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-done">Luchar con el odio que me tengo</p> <button class="check-done"> <i class="fa-regular fa-circle-check"></i></button>
+                <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-task">Dejar de usar referencias de peliculas en mis tareas</p> <button class="check"> <i class="fa-regular fa-circle"></i></button>
+                <li class="task-list"><button class="delete" type="reset"><i class="fa-solid fa-trash-can"></i></button> <p class="text-task">Rezar para sacar 20 en la tarea del diplomado</p>  <button class="check"><i class="fa-regular fa-circle"></i></button>      
+      </ul>
+    </div>
+    <div id="counters">
+      <div id="total-tasks">
+        <p class="all-counters">Total: <Span id="total-count">9</Span></p>
+      </div>
+      <div t id="completed-tasks">
+        <p class="all-counters">completed: <span id="completed-count">3</span></p>
+      </div>
+      <div id="incompleted-tasks">
+        <p class="all-counters">incompleted: <span id="incompleted-count">6</span></p>
+      </div>
+      
+    </div>
+</div>
+</main>
+</body>
+</html>
